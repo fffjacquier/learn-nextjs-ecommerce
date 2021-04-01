@@ -7,4 +7,4 @@ Using:
 - GraphQL
 - KeystoneJS
 - Stripe
-- 
+- Styled Components
