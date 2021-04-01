@@ -2,9 +2,9 @@
 - nextjs and stripe for the front end,
 - keystonejs (keystone-next) and typescript for the back end + graphql
 
-> Netxjs
-> Keystone-next
-> Stripe
-> Typescript
-> Graphql
-> Nodemailer
+Using for the back end
+- Keystone-next
+- Stripe
+- Typescript
+- Graphql
+- Nodemailer
