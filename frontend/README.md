@@ -2,6 +2,9 @@
 - nextjs and stripe for the front end,
 - keystonejs (keystone-next) and typescript for the back end
 
-> Nextjs / react
-> Apollo client,
-> GraphQl,
+Using:
+- Nextjs
+- GraphQL
+- KeystoneJS
+- Stripe
+- 
