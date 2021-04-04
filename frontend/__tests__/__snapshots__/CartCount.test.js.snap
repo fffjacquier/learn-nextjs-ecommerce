@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartCount /> matches the snapshot 1`] = `
+<CartCount__AnimationStyles>
+  <TransitionGroup
+    childFactory={[Function]}
+    component="div"
+  >
+    <CSSTransition
+      className="count"
+      classNames="count"
+      key="10"
+      timeout={
+        Object {
+          "enter": 400,
+          "exit": 400,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <CartCount__Dot>
+        10
+      </CartCount__Dot>
+    </CSSTransition>
+  </TransitionGroup>
+</CartCount__AnimationStyles>
+`;
+
+exports[`<CartCount /> updates via props 1`] = `
+<CartCount
+  count={10}
+>
+  <CartCount__AnimationStyles>
+    <span
+      className="CartCount__AnimationStyles-xxvp4g-1 kzUsSe"
+    >
+      <TransitionGroup
+        childFactory={[Function]}
+        component="div"
+      >
+        <div>
+          <CSSTransition
+            className="count"
+            classNames="count"
+            in={true}
+            key=".$10"
+            onExited={[Function]}
+            timeout={
+              Object {
+                "enter": 400,
+                "exit": 400,
+              }
+            }
+            unmountOnExit={true}
+          >
+            <Transition
+              appear={false}
+              className="count"
+              enter={true}
+              exit={true}
+              in={true}
+              mountOnEnter={false}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              timeout={
+                Object {
+                  "enter": 400,
+                  "exit": 400,
+                }
+              }
+              unmountOnExit={true}
+            >
+              <CartCount__Dot
+                className="count"
+              >
+                <div
+                  className="CartCount__Dot-xxvp4g-0 bntGuW count"
+                >
+                  10
+                </div>
+              </CartCount__Dot>
+            </Transition>
+          </CSSTransition>
+        </div>
+      </TransitionGroup>
+    </span>
+  </CartCount__AnimationStyles>
+</CartCount>
+`;
+
+exports[`<CartCount /> updates via props 2`] = `
+<CartCount
+  count={12}
+>
+  <CartCount__AnimationStyles>
+    <span
+      className="CartCount__AnimationStyles-xxvp4g-1 kzUsSe"
+    >
+      <TransitionGroup
+        childFactory={[Function]}
+        component="div"
+      >
+        <div>
+          <CSSTransition
+            className="count"
+            classNames="count"
+            in={true}
+            key=".$12"
+            onExited={[Function]}
+            timeout={
+              Object {
+                "enter": 400,
+                "exit": 400,
+              }
+            }
+            unmountOnExit={true}
+          >
+            <Transition
+              appear={false}
+              className="count"
+              enter={true}
+              exit={true}
+              in={true}
+              mountOnEnter={false}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              timeout={
+                Object {
+                  "enter": 400,
+                  "exit": 400,
+                }
+              }
+              unmountOnExit={true}
+            >
+              <CartCount__Dot
+                className="count"
+              >
+                <div
+                  className="CartCount__Dot-xxvp4g-0 bntGuW count"
+                >
+                  12
+                </div>
+              </CartCount__Dot>
+            </Transition>
+          </CSSTransition>
+          <CSSTransition
+            className="count"
+            classNames="count"
+            in={false}
+            key=".$10"
+            onExited={[Function]}
+            timeout={
+              Object {
+                "enter": 400,
+                "exit": 400,
+              }
+            }
+            unmountOnExit={true}
+          >
+            <Transition
+              appear={false}
+              className="count"
+              enter={true}
+              exit={true}
+              in={false}
+              mountOnEnter={false}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              timeout={
+                Object {
+                  "enter": 400,
+                  "exit": 400,
+                }
+              }
+              unmountOnExit={true}
+            >
+              <CartCount__Dot
+                className="count"
+              >
+                <div
+                  className="CartCount__Dot-xxvp4g-0 bntGuW count"
+                >
+                  10
+                </div>
+              </CartCount__Dot>
+            </Transition>
+          </CSSTransition>
+        </div>
+      </TransitionGroup>
+    </span>
+  </CartCount__AnimationStyles>
+</CartCount>
+`;
